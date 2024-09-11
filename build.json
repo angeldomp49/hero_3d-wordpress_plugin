@@ -1,0 +1,9 @@
+{
+  "include": [
+    "assets",
+    "vendor",
+    "src",
+    "makechtech_hero_3d.php"
+  ],
+  "zipFilename": "makechtech_hero_3d"
+}

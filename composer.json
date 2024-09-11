@@ -1,0 +1,35 @@
+{
+  "name": "makechtech/hero_3d_section",
+  "description": "hero 3d section",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Makech Technology",
+      "email": "angeldomp49@gmail.com"
+    }
+  ],
+  "require": {
+    "wpackagist-plugin/elementor": "^3.24"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "MakechTech\\Software\\": "src"
+    }
+  }
+}
